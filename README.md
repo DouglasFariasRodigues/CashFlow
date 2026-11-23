@@ -1,8 +1,12 @@
 # Python Full Stack
 
-Repositório de estudos e projetos em Python para formação Full Stack.
+Repositório particular com meus estudos e projetos de Python para formação Full Stack.
 
-Este repositório reúne exercícios, estudos e aplicações construídos ao longo da minha evolução nas tecnologias de desenvolvimento web. O **Cashflow** é um dos projetos desta trilha de aprendizagem.
+Este repositório reúne exercícios, estudos e aplicações desenvolvidos por mim ao longo da minha evolução nas tecnologias de desenvolvimento web.
+
+Todos os projetos são particulares e foram feitos manualmente, sem o uso de inteligência artificial para criar os códigos. O objetivo é praticar os fundamentos, entender cada solução implementada e acompanhar minha própria evolução.
+
+O **Cashflow** é um dos projetos desta trilha de aprendizagem.
 
 ## Projetos
 

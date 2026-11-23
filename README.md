@@ -1,6 +1,12 @@
-### Cashflow
+# Cashflow
 
-Aplicação simples para acompanhar saldo, entradas e saídas financeiras.
+Aplicação particular de controle financeiro desenvolvida manualmente por José Douglas.
+
+Este projeto faz parte dos meus estudos práticos de desenvolvimento web. O código foi criado sem o uso de inteligência artificial, com o objetivo de praticar os fundamentos, entender cada solução implementada e acompanhar minha própria evolução.
+
+## Sobre o projeto
+
+O Cashflow é uma aplicação simples para acompanhar saldo, entradas e saídas financeiras.
 
 O projeto atual está disponível em [`index.html`](./index.html) e contém:
 
@@ -9,26 +15,16 @@ O projeto atual está disponível em [`index.html`](./index.html) e contém:
 - Formulário para nova transação
 - Histórico básico de movimentações
 
-## Tecnologias estudadas
+## Tecnologias utilizadas
 
-Este repositório pode conter, além de Python, projetos e estudos de tecnologias como:
+O projeto utiliza:
 
 - HTML e CSS
-- JavaScript
-- Frameworks web em Python
-- APIs e integração com bancos de dados
-- Git e GitHub
-- Boas práticas de desenvolvimento
+- JavaScript planejado para as próximas etapas
 
 ## Como visualizar o Cashflow
 
-1. Clone o repositório:
-
-   ```bash
-   git clone https://github.com/DouglasFariasRodigues/Python_FullStack.git
-   cd Python_FullStack
-   ```
-
+1. Baixe ou clone este repositório.
 2. Abra o arquivo `index.html` diretamente no navegador.
 
 Também é possível executar um servidor local, por exemplo:
@@ -45,4 +41,4 @@ Depois, acesse `http://localhost:8000` no navegador.
 
 ## Status
 
-Repositório em construção. Novos estudos e projetos serão adicionados continuamente.
+Projeto em desenvolvimento.

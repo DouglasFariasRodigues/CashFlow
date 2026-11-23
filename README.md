@@ -1,7 +1,3 @@
-O **Cashflow** é um dos projetos desta trilha de aprendizagem.
-
-## Projetos
-
 ### Cashflow
 
 Aplicação simples para acompanhar saldo, entradas e saídas financeiras.

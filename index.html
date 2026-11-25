@@ -3,38 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Cashflow</title>
   </head>
   <body>
     <header>
-      <title>Cashflow</title>
+      <h1>Cashflow</h1>
     </header>
     <main>
       <section class="summary">
         <h2>Resumo:</h2>
-        <article>
-          Saldo:
-          <p>3.200,00</p>
-        </article>
-        <article>
-          Entradas:
-          <p>5.000,00</p>
-        </article>
-        <article>
-          Saídas:
-          <p>1.800,00</p>
-        </article>
+        <div class="cards-grid">
+          <article>
+            <h3>Saldo</h3>
+            <p>3.200,00</p>
+          </article>
+          <article class="income">
+            <h3>Entradas</h3>
+            <p>5.000,00</p>
+          </article>
+          <article class="expense">
+            <h3>Saídas</h3>
+            <p>1.800,00</p>
+          </article>
+        </div>
       </section>
 
       <section class="new-transaction">
         <h2>Nova transação</h2>
         <form action="">
-          <label for="title">Descrição:</label>
+          <label for="description">Descrição:</label>
           <input type="text" id="description" name="description" />
-          <label for="title"> Valor:</label>
+          <label for="amount" step="0.01" required> Valor:</label>
           <input type="number" id="amount" name="amount" />
-          <label for="title">Tipo</label>
-          <input type="text" id="type" name="type" />
+          <select name="type" id="type" required>
+            <option value="income">Entrada</option>
+            <option value="expense">Saída</option>
+          </select>
           <button type="submit">Adicionar</button>
         </form>
       </section>
@@ -43,8 +48,9 @@
         <table>
           <thead>
             <tr>
-              <th>Entradas</th>
-              <th>Saídas</th>
+              <th>Descrição</th>
+              <th>Tipo</th>
+              <th>Valor</th>
             </tr>
           </thead>
           <tbody>

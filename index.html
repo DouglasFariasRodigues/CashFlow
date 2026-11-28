@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Cashflow</title>
   </head>
   <body>
@@ -16,22 +17,22 @@
         <div class="cards-grid">
           <article>
             <h3>Saldo</h3>
-            <p>3.200,00</p>
+            <p id="value">3.200,00</p>
           </article>
           <article class="income">
             <h3>Entradas</h3>
-            <p>5.000,00</p>
+            <p id="income">5.000,00</p>
           </article>
           <article class="expense">
             <h3>Saídas</h3>
-            <p>1.800,00</p>
+            <p id="expense">1.800,00</p>
           </article>
         </div>
       </section>
 
       <section class="new-transaction">
         <h2>Nova transação</h2>
-        <form action="">
+        <form action="" id="transaction-form">
           <label for="description">Descrição:</label>
           <input type="text" id="description" name="description" />
           <label for="amount"> Valor:</label>
@@ -45,7 +46,8 @@
       </section>
       <section class="transactions">
         <h2>Histórico:</h2>
-        <table>
+
+        <table id="transactions-table">
           <thead>
             <tr>
               <th>Descrição</th>
@@ -53,7 +55,7 @@
               <th>Valor</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody id="transactions-body">
             <tr>
               <td>Entrada</td>
               <td>Salário</td>
